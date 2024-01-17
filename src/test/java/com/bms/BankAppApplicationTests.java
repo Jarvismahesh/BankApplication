@@ -1,3 +1,4 @@
+/*
 package com.bms;
 
 import org.junit.jupiter.api.Assertions;
@@ -13,7 +14,7 @@ class BankAppApplicationTests {
 	@Autowired
 	BankDAO dao;
 
-	/*
+	
 	 * @Before public void init() { Bank bean = new
 	 * Bank(2898990,"Karthi","SavingAccount",9090,"8978675656"); }
 	 * 
@@ -32,6 +33,8 @@ class BankAppApplicationTests {
 		boolean val = dao.insert(bean);
 		Assertions.assertEquals(true, val);
 	}
-	*/
+	
 
 }
+
+*/
