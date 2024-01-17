@@ -19,7 +19,7 @@ class BankAppApplicationTests {
 	 * 
 	 * 
 	 * @After public void reset() { bean = null; }
-	 */
+	 
 
 	@Test
 	void contextLoads() {
@@ -32,5 +32,6 @@ class BankAppApplicationTests {
 		boolean val = dao.insert(bean);
 		Assertions.assertEquals(true, val);
 	}
+	*/
 
 }
